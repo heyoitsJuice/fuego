@@ -152,7 +152,7 @@ function App() {
         className="flex-shrink-0 flex items-center justify-between px-4 sm:px-8 shadow-md"
         style={{ height: 'var(--topbar-height)' }}
       >
-        <a href="https://alterclass.io/courses/react">
+        <a href="https://github.com/heyoitsJuice/fuego">
         <Github /> 
         </a>
         <div className="flex items-center">
