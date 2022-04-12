@@ -54,11 +54,6 @@ const Github = props => (
 function App() {
   const { user, initializing } = useAuthState(firebase.auth());
   const [darkMode, setDarkMode] = useDarkMode();
-
-  const brandLogo = darkMode
-    ? `${process.env.PUBLIC_URL}/logo_white.svg`
-    : `${process.env.PUBLIC_URL}/logo.svg`;
-
   const ThemeIcon = darkMode ? SunIcon : MoonIcon;
 
   const signInWithGoogle = async () => {
